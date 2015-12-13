@@ -1,0 +1,38 @@
+/***********
+COLORS
+**********/
+
+/*site body*/
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/*green header*/
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/*logo text*/
+h1, h2 {
+	color: #fff;
+}
+
+/*nav background on mobile*/
+nav {
+	background-color: #599a68;
+}
+
+/*links*/
+a {
+	color: #6ab47b;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+/*selected nav link*/
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
