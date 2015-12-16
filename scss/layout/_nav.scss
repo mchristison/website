@@ -3,7 +3,7 @@ NAVIGATION
 **********/
 
 nav {
-	text-align: center;
+	@extend %centered;
 	margin: 20px 0 0;
 }
 

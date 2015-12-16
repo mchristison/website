@@ -10,7 +10,7 @@ header {
 }
 
 #logo {
-	text-align: center;
+	@extend %centered;
 	margin: 0;
 }
 
