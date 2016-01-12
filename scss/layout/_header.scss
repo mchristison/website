@@ -7,11 +7,21 @@ header {
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
+	@media screen and (min-width: 660px) {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
 }
 
 #logo {
 	text-align: center;
 	margin: 0;
+	@media screen and (min-width: 660px) {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
 }
 
 h1 {
@@ -20,11 +30,18 @@ h1 {
 	font-size: 1.75em;
 	font-weight: normal;
 	line-height: 0.8em;
+	@media screen and (min-width: 660px) {
+		font-size: 2.5em;
+	}
 }
 h2 {
 	font-size: 0.75em;
 	margin: -5px 0 0;
 	font-weight: normal;
+	@media screen and (min-width: 660px) {
+		font-size: 0.9em;
+		margin-bottom: 20px;
+	}
 }
 
 h3 {

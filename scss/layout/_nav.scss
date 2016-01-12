@@ -5,6 +5,14 @@ NAVIGATION
 nav {
 	text-align: center;
 	margin: 20px 0 0;
+	@media screen and (min-width: 660px) {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
 }
 
 nav ul {
