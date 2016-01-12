@@ -14,7 +14,7 @@ header {
 }
 
 #logo {
-	text-align: center;
+	@extend %centered;
 	margin: 0;
 	@media screen and (min-width: 660px) {
 		float: left;
